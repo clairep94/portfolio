@@ -16,7 +16,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-grey-50 text-gray-950 relative
+
+      {/* body: position relative; padding-top: 7rem; @media (min-width: 640px) {padding-top 9rem} */}
+      <body className={`${inter.className} bg-grey-50 text-gray-950 
+      relative pt-28 sm:pt-36
       h-[5000px]`}>
         
           {/* pink gradient */}

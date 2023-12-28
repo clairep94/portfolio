@@ -6,7 +6,9 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
-export const links = [
+
+
+export const links = [ // navbar links
   {
     name: "Home",
     hash: "#home",
@@ -31,7 +33,12 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-] as const;
+] as const; 
+
+
+
+export const profilePicURL = "https://media.licdn.com/dms/image/C4D03AQFCRdxPaFxEFw/profile-displayphoto-shrink_800_800/0/1583419992936?e=2147483647&v=beta&t=-aicjehD7GkHSo1bveZM_OVBx9hm3BBSxFegSVnEDPg" as const;
+
 
 export const experiencesData = [
   {
